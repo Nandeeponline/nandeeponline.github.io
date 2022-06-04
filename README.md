@@ -1,2 +1,47 @@
-# nandeeponline.github.io
-http://undertheuniverse.me/ProjectPreview/
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Button config</title>
+	<style type="text/css">
+		button{
+  font-family: Zapfino;
+  font-size:x-large;
+  width:140px;
+  border-radius:5px;
+  background-color: #546AAA;
+  color: #ECEEF5;
+  border:1px solid #333;
+  padding: 8px 0 8px 0;
+  line-height:1;
+  transition-duration: 0.3s;
+}
+.start{
+  background-color:#546AAA;
+  color:#ECEEF5;
+  transition-duration: 0.3s;
+}
+.stop{
+  background-color:rgb(255,0,0);
+  color:#ECEEF5;
+  transition-duration: 0.3s;
+}
+.start:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.stop:hover{
+  background-color: rgb(150,0,0);  /* #ff4f00;  #4CAF50;  Green */
+  color: white;
+}
+button:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+	</style>
+</head>
+<body>
+	<a href="http://undertheuniverse.me/ProjectPreview/"><button>Start</button></a>
+</body>
+</html>
